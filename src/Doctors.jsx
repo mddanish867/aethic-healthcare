@@ -25,7 +25,7 @@ export default function Doctors() {
   return (
     <div className="py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Our Doctors</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-blue-900">Our Doctors</h1>
         
         <div className="mb-8 flex flex-col md:flex-row justify-between items-center">
           <input

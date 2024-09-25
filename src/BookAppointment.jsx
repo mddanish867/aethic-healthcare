@@ -111,7 +111,7 @@ export default function BookAppointment() {
   return (
     <div className="py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-8">Book an Appointment</h1>
+        <h1 className="text-4xl font-bold text-center mb-8 text-blue-900">Book an Appointment</h1>
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
           <div className="mb-6">
             <label htmlFor="doctor" className="block text-gray-700 text-sm font-bold mb-2">

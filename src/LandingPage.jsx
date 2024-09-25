@@ -19,7 +19,7 @@ export default function Home() {
                 needs.
               </p>
               <Link
-                href="/appointment"
+                to="/appointment"
                 className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300"
               >
                 Book an Appointment

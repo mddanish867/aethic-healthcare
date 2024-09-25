@@ -24,7 +24,7 @@ export default function Blog() {
   return (
     <div className="py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Health and Wellness Blog</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-blue-900">Health and Wellness Blog</h1>
         
         <div className="mb-8 flex flex-col md:flex-row justify-between items-center">
           <input
