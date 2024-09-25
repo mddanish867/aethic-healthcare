@@ -43,7 +43,7 @@ export default function Navbar() {
             </nav>
             <div className="mt-4 px-4 space-y-2">
              
-              <button className="w-full bg-white border border-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300">
+              <button className="w-full bg-white border border-blue-600 text-blue-600 px-4 py-2 rounded-md transition duration-300">
                 Login
               </button>
             </div>
