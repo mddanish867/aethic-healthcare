@@ -24,7 +24,7 @@ export default function Services() {
               <service.icon className="h-12 w-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <Link to={service.link} className="text-blue-600 hover:underline">Learn More</Link>
+              <Link to={`/services/${service.id}`} className="text-blue-600 hover:underline">Learn More</Link>
             </div>
           ))}
         </div>

@@ -18,6 +18,8 @@ export default function Navbar() {
             <Link to="/doctors" className="text-white hover:underline">Doctors</Link>
             <Link to="/blog" className="text-white hover:underline">Blog</Link>
             <Link to="/contact" className="text-white hover:underline">Contact</Link>
+            <Link to="/patient-dashboard" className="text-white hover:underline">Dashboard</Link>
+
           </nav>
           <div className="hidden md:flex items-center space-x-4">
             
@@ -40,6 +42,8 @@ export default function Navbar() {
             <Link to="/doctors" className="text-white hover:underline">Doctors</Link>
             <Link to="/blog" className="text-white hover:underline">Blog</Link>
             <Link to="/contact" className="text-white hover:underline">Contact</Link>
+            <Link to="/patient-dashboard" className="text-white hover:underline">Dashboard</Link>
+
             </nav>
             <div className="mt-4 px-4 space-y-2">
              
