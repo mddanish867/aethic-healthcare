@@ -29,11 +29,11 @@ export default function Navbar() {
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {isMenuOpen ? <X className="h-6 w-6 text-white" /> : <Menu className="text-white h-6 w-6" />}
           </button>
         </div>
         {isMenuOpen && (
-          <div className="md:hidden bg-white py-2">
+          <div className="md:hidden bg-blue-600 py-2">
             <nav className="flex flex-col space-y-2 px-4">
             <Link to="/" className="text-white hover:underline">Home</Link>
             <Link to="/services" className="text-white hover:underline">Services</Link>
@@ -43,7 +43,7 @@ export default function Navbar() {
             </nav>
             <div className="mt-4 px-4 space-y-2">
              
-              <button className="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300">
+              <button className="w-full bg-white border border-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300">
                 Login
               </button>
             </div>
