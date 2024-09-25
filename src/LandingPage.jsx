@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Calendar, Video, Pill, Phone, Clock, Star } from "lucide-react";
-import Navbar from "./Home/Navbar";
+import { Phone, Star } from "lucide-react";
 import Services from "./Services";
 
 export default function Home() {
